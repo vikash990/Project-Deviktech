@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html>
+    <head>
+           
+    </head>
+   <body>
+      
+       <!-- 
+       <h1 id="first1">  </h1>
+       <h1 class="first">  </h1>
+       <h1 class="first">  </h1>
+       <h1 class="first">  </h1> -->
+       <div id="first">
+           <p>First</p>
+           <p id="sec">Second</p>
+       </div>
+
+       
+      
+      
+    <script>   
+
+        /*  document.getElementsByClassName("first")[0].innerHTML="vikash";
+         document.getElementsByClassName("first")[1].innerHTML="dubey"; */
+       /*   document.getElementsByTagName("h1")[0].innerHTML="vikash";
+         document.getElementsByTagName("h1")[1].innerHTML="Dubey"; */
+         var para=document.createElement("button");
+         var notes=document.createTextNode("third");
+         para.appendChild(notes);
+         var element=document.getElementById("first");
+         element.appendChild(para);
+         var rem=document.getElementById("sec");
+         rem.remove();
+         
+
+     </script>
+       
+       
+    </body>
+</html>
